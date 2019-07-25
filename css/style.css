@@ -1,0 +1,18 @@
+/* I am working hard at including -webkit-,-moz-,-o- in all my Web Dev. projects  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Will be the Mobile First @media */
+
+html {
+    background: url(../img/bg-big.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
