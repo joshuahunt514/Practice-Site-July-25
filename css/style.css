@@ -13,18 +13,17 @@
     *, *:before, *:after {
         box-sizing: border-box;
     }
-    html {
+    body {
         background: url(../img/bg-big.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         color: white;
+        text-align: center;
     }
     div#backdrop {
-        position: fixed;
         background: rgba(0, 0, 0, 0.25);
-        overflow: hidden;
         height: 100%;
         width: 100%;
         z-index: 2;
@@ -37,6 +36,32 @@
     Aside {
         display: none;
     }
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-header {
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+    }
+    .main-header h1 {
+        position: relative;
+        left: -10px;
+    }
+    /* Logo Start **********************************************/
+    #logo {
+        position: relative;
+        width: 25px;
+        height: 25px;
+    }
+    /* Logo End **********************************************/
+    /* Main Header Start **********************************************/
+    .main-header-h1 {
+        width: 100%;
+    }
+    /* Main Header End **********************************************/
     /* Nav Menu Start **********************************************/
     .menu-toggle {
         display: inline-block;
@@ -44,6 +69,8 @@
         line-height: 1em;
         font-size: 1em;
         color: #eee;
+        position: relative;
+        left: -10px;
     }
     .menu-toggle:hover, .menu-toggle:focus {
         color: #e00;
@@ -57,8 +84,8 @@
         display: none;
         left: -200px;
         top: 0;
-        height: 100%;
-        overflow-y: scroll;
+        height: 50%;
+        overflow-y: hidden;
         overflow-x: visible;
         transition: left 0.3s ease, box-shadow 0.3s ease;
         z-index: 999;
@@ -71,7 +98,7 @@
         -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
         box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
         min-height: 100%;
-        width: 200px;
+        width: 175px;
         background: #1a1a1a;
     }
     .main-menu a {
@@ -141,17 +168,43 @@
     }
     /* Nav Menu End **********************************************/
     /* Main Start **********************************************/
-.main-area {
-    background-color: rgba(240, 240, 240, 0.25);
-}
-
+    .box-1 {
+        background-color: rgba(140, 240, 240, 0.25);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Main End **********************************************/
     /* First Article Start **********************************************/
+    .box-2 {
+        background-color: rgba( 240, 0, 0, 0.25);
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
+    .box-3 {
+        background-color: rgba( 0, 240, 0, 0.25);
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* Second Article End **********************************************/
-    /* Main End **********************************************/
     /* Footer Start **********************************************/
-    /* Footer End **********************************************/
+    .footer-main-container {
+        background-color: rgba(0, 0, 240, 0.25);
+        /* Footer End **********************************************/
+    }
+    /* Mobile First End ***********************************************/
+    /* Tablet Start ***********************************************/
+    /* Tablet End ***********************************************/
+    /* Desktop Start ***********************************************/
+    /* Desktop End ***********************************************/
 }
-
-/* Mobile First End ***********************************************/

@@ -24,3 +24,15 @@
 
 - July 26th - I'm not the best designer, but I'll work on it.
     - Starting to take some sort of shape/form.
+    - Working on my Flexbox for the Mobile First part
+    - Separating the sections by color so I can organize myself better
+        - Made Aside dissapear for Mobile site
+
+- July 26th - Added a logo
+
+- July 26th - Playing with jQuery (good to learn)
+    - Can add jQuery from my own directory, or the Google provided online version, like this one:
+       - "http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    - For this one, I will use jQuery from my own directory
+    - Actually, I will be using a plugin I found online:
+        - "https://www.jqueryscript.net/slider/Fully-Responsive-Flexible-jQuery-Carousel-Plugin-slick.html"
