@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-/* Mobile First Start */
+/* Mobile First Start ***********************************************/
 
 @media (max-width: 480px) {
     *, *:before, *:after {
@@ -19,13 +19,25 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        color: white;
+    }
+    div#backdrop {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
     }
     header {
         padding: 20px;
         display: flex;
         align-items: baseline;
     }
-    /* Button */
+    Aside {
+        display: none;
+    }
+    /* Nav Menu Start **********************************************/
     .menu-toggle {
         display: inline-block;
         padding: 0.75em 15px;
@@ -37,9 +49,9 @@
         color: #e00;
     }
     /*
-Default styles + Mobile First
-Offscreen menu style 
-*/
+    Default styles + Mobile First
+    Offscreen menu style 
+    */
     .main-menu {
         position: absolute;
         display: none;
@@ -55,7 +67,6 @@ Offscreen menu style
         list-style: none;
         margin: 0;
         padding: 2.5em 0 0;
-        /* Hide shadow w/ -8px while 'closed' */
         -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
         box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
@@ -84,13 +95,7 @@ Offscreen menu style
         right: 0;
         top: 0;
     }
-    /*
-On small devices, allow it to toggle...
-*/
-    /*
-:target for non-JavaScript
-[aria-expanded] will be used if/when JavaScript is added to improve interaction,
-*/
+    /* On small devices, allow it to toggle...*/
     .main-menu:target, .main-menu[aria-expanded="true"] {
         display: block;
         left: 0;
@@ -106,10 +111,6 @@ On small devices, allow it to toggle...
         position: relative;
         z-index: 1000;
     }
-    /*
-We could use ".main-menu:target:after", 
-but it wouldn't be clickable.
-*/
     .main-menu:target+.backdrop, .main-menu[aria-expanded="true"]+.backdrop {
         position: absolute;
         display: block;
@@ -138,6 +139,19 @@ but it wouldn't be clickable.
         clip: rect(0, 0, 0, 0);
         border: 0;
     }
+    /* Nav Menu End **********************************************/
+    /* Main Start **********************************************/
+.main-area {
+    background-color: rgba(240, 240, 240, 0.25);
 }
 
-/* Mobile First End */
+    /* First Article Start **********************************************/
+    /* First Article End **********************************************/
+    /* Second Article Start **********************************************/
+    /* Second Article End **********************************************/
+    /* Main End **********************************************/
+    /* Footer Start **********************************************/
+    /* Footer End **********************************************/
+}
+
+/* Mobile First End ***********************************************/

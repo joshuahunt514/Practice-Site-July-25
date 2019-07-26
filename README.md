@@ -21,3 +21,6 @@
 
 - July 26th - Getting other areas ready, making sure it's Mobile First
     - Ensuring that I learn good techniques so I don't drive my future co-workers nuts with bad code.
+
+- July 26th - I'm not the best designer, but I'll work on it.
+    - Starting to take some sort of shape/form.
