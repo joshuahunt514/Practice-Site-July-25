@@ -5,29 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Practice Site - July 24th</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Menu -->
     <header>
-      <a href="#main-menu" class="menu-toggle">
-        <span class="fa fa-bars"></span>
+      <a
+        href="#main-menu"
+        id="main-menu-toggle"
+        class="menu-toggle"
+        aria-label="Open main menu"
+      >
+        <span class="screenreader">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
       </a>
-      <h1 class="logo">hamburgers</h1>
-      <nav id="main-menu" class="main-menu">
-        <a href="#main-menu-toggle" class="menu-close">
-          <span class="fa fa-close"></span>
+      <h1 class="logo">Sports Site</h1>
+      <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a
+          href="#main-menu-toggle"
+          id="main-menu-close"
+          class="menu-close"
+          aria-label="Close main menu"
+        >
+          <span class="screenreader"></span>
+          <span class="fa fa-close" aria-hidden="true"></span>
         </a>
         <ul>
-          <li><a href="#">Example1</a></li>
-          <li><a href="#">Example2</a></li>
-          <li><a href="#">Example3</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
         </ul>
       </nav>
-      <a href="#main-menu-toggle" class="backdrop" hidden></a>
+      <a
+        href="#main-menu-toggle"
+        class="backdrop"
+        tabindex="-1"
+        aria-hidden="true"
+        hidden
+      ></a>
     </header>
-
-    <main></main>
-
+    <!-- Menu End -->
+    <main>
+      <h1>Main</h1>
+    </main>
+    <section>
+      <h1>First Section</h1>
+    </section>
+    <section>
+      <h1>Second Section</h1>
+    </section>
+    <Aside>
+      <h1>Aside</h1>
+    </Aside>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
