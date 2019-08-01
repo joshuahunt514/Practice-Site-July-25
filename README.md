@@ -1,3 +1,10 @@
+What is it: A regular site, with a sporty theme. Done mobile first
+How to see it: Just open index.html and adjust the screen to see it's responsiveness!
+Who did it: Joshua Hunt
+
+-----------------------------------------------------------------------------------
+Notes:
+
 - July 24th - Grabbed some example .jpgs of responsive websites to try and recreate
 
 - July 25th - Doing my practice project MOBILE FIRST, as I should.
@@ -44,3 +51,5 @@
 - July 28th - Learning to adjust jQuery settings
 
 - August 1st, going to work on this a bit today
+
+- 

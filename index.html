@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Main Flex Container Start -->
+    <!-- Main Flex Container Start---------------------------------------- -->
     <div class="main-container">
       <div id="backdrop">
-        <!-- Menu -->
+        <!-- Menu--------------------------------------------------------- -->
         <header class="main-header">
           <a
             href="#main-menu"
@@ -55,55 +55,68 @@
           ></a>
           <img id="logo" src="img/logo.svg" alt="logo" />
         </header>
-        <!-- Menu End -->
+        <!-- Menu End----------------------------------------------------- -->
 
-        <!-- Main Start -->
+        <!-- Main Start--------------------------------------------------- -->
         <main>
           <div class="box-1">
-            <ul id="lightSlider">
-              <li class="item-a">
-                  <h3>Second Slide</h3>
-              </li>
-              <li class="item-b">
-                <h3>Second Slide</h3>
-              </li>
-              <li class="item-b">
-                <h3>Third Slide</h3>
-              </li>
-              <li class="item-d">
-                <h3>Fourth Slide</h3>
-              </li>
-            </ul>
+            <div class="slider">
+              <img class="mySlides" src="img/thumbnails/bg-1.jpg" />
+              <img class="mySlides" src="img/thumbnails/bg-2.jpg" />
+              <img class="mySlides" src="img/thumbnails/bg-3.jpg" />
+              <img class="mySlides" src="img/thumbnails/bg-4.jpg" />
+            </div>
           </div>
           <div class="box-2">
             <article>
-              <h1>Main Article</h1>
+              <h1>Main Area</h1>
+              <br />
+              <img
+                src="img/bg-mid-1.jpg"
+                alt="Image"
+                height="300em"
+                width="100%"
+              />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                placeat, nihil explicabo voluptatibus reprehenderit odit
+                assumenda, illum exercitationem eaque accusamus dicta enim
+                possimus sit atque alias quis! Beatae, hic quos. Voluptatum
+                dolor maxime quam suscipit optio nihil impedit, quae, voluptates
+                illo labore tempora eveniet eligendi.
+              </p>
             </article>
           </div>
+
+          <!-- Contact Area Start----------------------------------------- -->
           <div class="box-3">
             <article>
-              <h1>Second Article</h1>
+              <h1>Contact Area</h1>
+              <br />
+              <p>Put in a Google Maps + Contact Info (all fake)</p>
             </article>
           </div>
+          <!-- Contact Area End------------------------------------------- -->
+          <!-- Aside Start ("display: none" for Mobile)------------------- -->
+          <Aside>
+            <h1>Aside</h1>
+          </Aside>
+          <!-- Aside End--------------------------------------------------- -->
         </main>
-        <!-- Main End -->
 
-        <!-- Aside Start ("display: none" for Mobile) -->
-        <Aside>
-          <h1>Aside</h1>
-        </Aside>
-        <!-- Aside End -->
+        <!-- Main End------------------------------------------------------ -->
 
-        <!-- Footer Start -->
+        <!-- Footer Start-------------------------------------------------- -->
         <footer>
           <div class="footer-main-container">
-            <h1>Footer</h1>
+            <h1>More Information</h1>
+            <p>Info About Me</p>
           </div>
         </footer>
       </div>
-      <!-- Footer End -->
+      <!-- Footer End------------------------------------------------------ -->
     </div>
-    <!-- Main Flex Container End -->
+    <!-- Main Flex Container End------------------------------------------- -->
     <script src="js/script.js"></script>
   </body>
 </html>
