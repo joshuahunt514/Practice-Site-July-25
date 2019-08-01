@@ -167,7 +167,7 @@
         border: 0;
     }
     /* Nav Menu End **********************************************/
-    /* Main Start **********************************************/
+    /* Slider Start **********************************************/
     .box-1 {
         background-color: rgba(140, 240, 240, 0.25);
         width: 100%;
@@ -176,7 +176,7 @@
         justify-content: center;
         align-items: center;
     }
-    /* Main End **********************************************/
+    /* Slider End **********************************************/
     /* First Article Start **********************************************/
     .box-2 {
         background-color: rgba( 240, 0, 0, 0.25);
@@ -186,6 +186,43 @@
         justify-content: center;
         align-items: center;
     }
+    .item-a {
+        background-image: url(../img/thumbnails/bg-1.jpg);
+        height: 
+    }
+    /*
+    .item-a {
+        width: 200px;
+    }
+    .item-b {
+        width: 340px;
+    }
+    .item-c {
+        width: 290px;
+    }
+    .item-d {
+        width: 220px;
+    }
+    .item-e {
+        width: 350px;
+    }
+    @media (max-width: 768px) {
+        .item-a {
+            width: 100px;
+        }
+        .item-b {
+            width: 240px;
+        }
+        .item-c {
+            width: 190px;
+        }
+        .item-d {
+            width: 120px;
+        }
+        .item-e {
+            width: 250px;
+        }
+    }*/
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
     .box-3 {

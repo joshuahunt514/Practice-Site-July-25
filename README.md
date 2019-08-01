@@ -36,3 +36,11 @@
     - For this one, I will use jQuery from my own directory
     - Actually, I will be using a plugin I found online:
         - "https://www.jqueryscript.net/slider/Fully-Responsive-Flexible-jQuery-Carousel-Plugin-slick.html"
+            - A jQuery slider plugin by Ken Wheeler
+
+- July 28th - having trouble with this particular slider, I'll try another one
+    - found another jQuery one by Sachin N called lightslider
+
+- July 28th - Learning to adjust jQuery settings
+
+- August 1st, going to work on this a bit today
