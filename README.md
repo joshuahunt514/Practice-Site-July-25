@@ -77,4 +77,8 @@ Notes:
 
 - Aug 2nd - Done Tablet/Laptop, now for Desktop
 
+-- Left off Here --
+
 - Aug 2nd - Something different for Desktop?
+    - Bring back that Aside
+    - Make menu a nav-bar instead of Hamburger Manu
