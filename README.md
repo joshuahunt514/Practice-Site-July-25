@@ -68,3 +68,13 @@ Notes:
 - Aug 2nd - Working on the media queries
 
 - Aug 2nd - Working on Tablet Viewport size
+
+- Aug 2nd - Done Low Res Tablet, now for Landscape Tablet
+
+- Aug 2nd - Landscape Tablet will have 2nd page for rest of elements
+
+- Aug 2nd - Done Landscape Tablet, now starting normal Tablet/Laptop
+
+- Aug 2nd - Done Tablet/Laptop, now for Desktop
+
+- Aug 2nd - Something different for Desktop?

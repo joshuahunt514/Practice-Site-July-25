@@ -260,9 +260,7 @@
 
 /* Mobile End ************************************************/
 
-/* !!!!! Currently Here !!!!!! ******************************************************** !!! */
-
-/* Low Res Tablet, Mobile (landscape) Start ************************************/
+/* Low Res Tablet, Mobile (landscape) Start *********************************/
 
 @media (min-width: 480px) and (max-width: 767px) {
     *, *:before, *:after {
@@ -434,14 +432,14 @@
     /* Slider Start **********************************************/
     .box-1 {
         width: 100%;
-        height: 200px;
+        height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .slider img {
         width: 100%;
-        height: 200px;
+        height: 300px;
     }
     /* Slider End **********************************************/
     /* First Article Start **********************************************/
@@ -449,7 +447,7 @@
         /**/
         background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
-        height: 425px;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -457,14 +455,10 @@
         /* ^ Cuts off a little by img ^ */
     }
     .main-content-header {
-        padding: 0;
-        margin-top: -34%;
-        margin-bottom: 2%;
+        display: none;
     }
     .main-content {
-        border-top: 3px solid white;
-        margin-bottom: -35%;
-        padding-top: 15px;
+        margin-bottom: -10%;
         padding-bottom: 10px;
     }
     #mobile-thumbnail {
@@ -485,15 +479,22 @@
         width: 125px;
         height: 125px;
     }
+    .main-content-text {
+        padding-bottom: 10%;
+    }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
     .box-3 {
         background-color: rgba( 0, 240, 0, 0.25);
         width: 100%;
-        height: 350px;
+        height: 400px;
         justify-content: center;
         align-items: center;
         background-color: rgba(1, 26, 1, 0.808);
+    }
+    .map-box h2 {
+        border-top: 5px solid white;
+        padding: 15px;
     }
     #gmap_canvas {
         height: 250px;
@@ -504,11 +505,10 @@
         width: 100%;
         height: 250px;
     }
-    .map-box h2 {
-        padding: 2%;
-        border-top: 5px solid white;
+    .contact-info {
+        padding: 0;
+        margin-top: 2.5%;
     }
-    .contact-info {}
     /* Second Article End **********************************************/
     /* Footer Start ****************************************************/
     .footer-main-container {
@@ -522,9 +522,9 @@
     /* Footer End ******************************************************/
 }
 
-/* Low Res Tablets, Mobile (landscape) End ******************************************************/
+/* Low Res Tablets, Mobile (landscape) End *************************************/
 
-/* Tablet, Ipads (landscape) Start ****************************************************/
+/* Tablet, Ipads (landscape) Start *******************************************/
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     *, *:before, *:after {
@@ -558,7 +558,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        width: 500px;
+        max-width: 950px;
     }
     .main-header {
         align-items: center;
@@ -690,73 +690,96 @@
     /* Header Start **********************************************/
     .box-0 {
         background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 5px solid white;
     }
     /* Header End **********************************************/
     /* Slider Start **********************************************/
     .box-1 {
         width: 100%;
-        height: 200px;
+        height: 625px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 7px solid white;
     }
     .slider img {
         width: 100%;
-        height: 200px;
+        height: 625px;
     }
     /* Slider End **********************************************/
+    /* Landscape Tablet 2nd Page Start *******************************************************/
+    .tablet-second-page {
+        display: flex;
+    }
+    /* Landscape Tablet 2nd Page End *******************************************************/
     /* First Article Start **********************************************/
     .box-2 {
         /**/
         background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
-        height: 500px;
+        height: 625px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 8px solid white;
+        border-top: 5px solid white;
         /* ^ Cuts off a little by img ^ */
     }
     .main-content-header {
-        padding: 0;
-        margin-top: 4%;
-        margin-bottom: 2.5%;
+        display: none;
     }
     .main-content {
-        border-top: 3px solid white;
-        margin-bottom: 7%;
+        margin-bottom: -10%;
+        padding-bottom: 10px;
     }
-    .box-2 img {
+    #mobile-thumbnail {
+        display: none;
+    }
+    .grid-column {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    }
+    .grid-row {
+        flex: 33%;
+    }
+    .grid-img {
+        margin-top: 8px;
+        vertical-align: middle;
         border-radius: 50%;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        width: 125px;
+        height: 125px;
+    }
+    .main-content-text {
+        padding-bottom: 10%;
     }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
     .box-3 {
         background-color: rgba( 0, 240, 0, 0.25);
         width: 100%;
-        height: 350px;
+        height: 625px;
         justify-content: center;
         align-items: center;
         background-color: rgba(1, 26, 1, 0.808);
-    }
-    #gmap_canvas {
-        height: 250px;
-        width: 100%;
-        border-top: 5px solid white;
     }
     .box-3 article {
         width: 100%;
         height: 250px;
     }
-    .map-box h2 {
-        padding: 2%;
+    .contact-info-landscape {
+        padding: 15px;
         border-top: 5px solid white;
     }
-    .contact-info {}
+    #gmap_canvas {
+        height: 517px;
+        width: 100%;
+        border-top: 5px solid white;
+    }
+    .map-box h2 {
+        display: none;
+    }
+    .contact-info {
+        display: none;
+    }
     /* Second Article End **********************************************/
     /* Footer Start ****************************************************/
     .footer-main-container {
@@ -771,6 +794,8 @@
 }
 
 /* Tablet, Ipads (landscape) end ****************************************************/
+
+/* !!!!! Currently Here !!!!!! ******************************************************** !!! */
 
 /* Laptops, Desktops Start  ******************************************************/
 
@@ -806,8 +831,14 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        width: 500px;
+        max-width: 1150px;
     }
+    /* Landscape Tablet 1st Page Start *****************************************/
+    .tablet-first-page {
+        max-height: 900px;
+        height: 900px;
+    }
+    /* Landscape Tablet 1st Page End **************************************************/
     .main-header {
         align-items: center;
         margin: auto;
@@ -938,73 +969,97 @@
     /* Header Start **********************************************/
     .box-0 {
         background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 5px solid white;
     }
     /* Header End **********************************************/
     /* Slider Start **********************************************/
     .box-1 {
         width: 100%;
-        height: 200px;
+        height: 825px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 7px solid white;
     }
     .slider img {
         width: 100%;
-        height: 200px;
+        height: 825px;
     }
     /* Slider End **********************************************/
+    /* Landscape Tablet 2nd Page Start *******************************************************/
+    .tablet-second-page {
+        display: flex;
+        max-height: 900px;
+    }
+    /* Landscape Tablet 2nd Page End *******************************************************/
     /* First Article Start **********************************************/
     .box-2 {
         /**/
         background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
-        height: 500px;
+        height: 775px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 8px solid white;
+        border-top: 5px solid white;
         /* ^ Cuts off a little by img ^ */
     }
     .main-content-header {
-        padding: 0;
-        margin-top: 4%;
-        margin-bottom: 2.5%;
+        display: none;
     }
     .main-content {
-        border-top: 3px solid white;
-        margin-bottom: 7%;
+        margin-bottom: -10%;
+        padding-bottom: 10px;
     }
-    .box-2 img {
+    #mobile-thumbnail {
+        display: none;
+    }
+    .grid-column {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    }
+    .grid-row {
+        flex: 33%;
+    }
+    .grid-img {
+        margin-top: 8px;
+        vertical-align: middle;
         border-radius: 50%;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        width: 125px;
+        height: 125px;
+    }
+    .main-content-text {
+        padding-bottom: 10%;
     }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
     .box-3 {
         background-color: rgba( 0, 240, 0, 0.25);
         width: 100%;
-        height: 350px;
+        height: 775px;
         justify-content: center;
         align-items: center;
         background-color: rgba(1, 26, 1, 0.808);
-    }
-    #gmap_canvas {
-        height: 250px;
-        width: 100%;
-        border-top: 5px solid white;
     }
     .box-3 article {
         width: 100%;
         height: 250px;
     }
-    .map-box h2 {
-        padding: 2%;
+    .contact-info-landscape {
+        padding: 25px;
         border-top: 5px solid white;
     }
-    .contact-info {}
+    #gmap_canvas {
+        height: 647px;
+        width: 100%;
+        border-top: 5px solid white;
+    }
+    .map-box h2 {
+        display: none;
+    }
+    .contact-info {
+        display: none;
+    }
     /* Second Article End **********************************************/
     /* Footer Start ****************************************************/
     .footer-main-container {
