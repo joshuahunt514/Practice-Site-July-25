@@ -61,3 +61,5 @@ Notes:
 - Aug 1st - Embeded Google Maps in the contact section.
 
 - Aug 1st - Mobile Site looking alright
+
+- Aug 2nd - Had some Git issues, making sure they're fixed
