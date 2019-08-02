@@ -66,3 +66,5 @@ Notes:
 - Aug 2nd - Almost done the mobile part [320px - 480px] (I think)
 
 - Aug 2nd - Working on the media queries
+
+- Aug 2nd - Working on Tablet Viewport size

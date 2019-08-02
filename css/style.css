@@ -38,9 +38,7 @@
     Aside {
         display: none;
     }
-
     /* Main-Container ***************************************************/
-
     .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -213,11 +211,15 @@
         border-top: 3px solid white;
         margin-bottom: 7%;
     }
-    .box-2 img {
-        border-radius: 50%;
+    #mobile-thumbnail {
+        height: 300px;
         width: 100%;
+        max-width: 425px;
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+    .grid-column {
+        display: none;
     }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
@@ -258,11 +260,7 @@
 
 /* Mobile End ************************************************/
 
-
-
 /* !!!!! Currently Here !!!!!! ******************************************************** !!! */
-
-
 
 /* Low Res Tablet, Mobile (landscape) Start ************************************/
 
@@ -298,7 +296,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        max-width: 450px;
+        max-width: 550px;
     }
     .main-header {
         align-items: center;
@@ -430,6 +428,7 @@
     /* Header Start **********************************************/
     .box-0 {
         background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 5px solid white;
     }
     /* Header End **********************************************/
     /* Slider Start **********************************************/
@@ -439,7 +438,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 7px solid white;
     }
     .slider img {
         width: 100%;
@@ -451,7 +449,7 @@
         /**/
         background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
-        height: 500px;
+        height: 425px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -460,18 +458,32 @@
     }
     .main-content-header {
         padding: 0;
-        margin-top: 4%;
-        margin-bottom: 2.5%;
+        margin-top: -34%;
+        margin-bottom: 2%;
     }
     .main-content {
         border-top: 3px solid white;
-        margin-bottom: 7%;
+        margin-bottom: -35%;
+        padding-top: 15px;
+        padding-bottom: 10px;
     }
-    .box-2 img {
+    #mobile-thumbnail {
+        display: none;
+    }
+    .grid-column {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    }
+    .grid-row {
+        flex: 33%;
+    }
+    .grid-img {
+        margin-top: 8px;
+        vertical-align: middle;
         border-radius: 50%;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        width: 125px;
+        height: 125px;
     }
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
@@ -512,8 +524,6 @@
 
 /* Low Res Tablets, Mobile (landscape) End ******************************************************/
 
-
-
 /* Tablet, Ipads (landscape) Start ****************************************************/
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -543,10 +553,7 @@
     Aside {
         display: none;
     }
-
     /* Main-Container ***************************************************/
-
-
     .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -765,9 +772,6 @@
 
 /* Tablet, Ipads (landscape) end ****************************************************/
 
-
-
-
 /* Laptops, Desktops Start  ******************************************************/
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -797,9 +801,7 @@
     Aside {
         display: none;
     }
-
     /* Main-Container ***************************************************/
-
     .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -1018,9 +1020,6 @@
 
 /* Laptops, Desktops End ******************************************************/
 
-
-
-
 /* Desktop, (higher resolution) Start *****************************************************/
 
 @media (min-width: 1281px) {
@@ -1050,10 +1049,7 @@
     Aside {
         display: none;
     }
-
     /* Main-Container ***************************************************/
-
-
     .main-container {
         display: flex;
         flex-wrap: wrap;
