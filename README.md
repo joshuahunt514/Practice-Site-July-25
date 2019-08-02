@@ -1,6 +1,8 @@
-What is it: A regular site, with a sporty theme. Done mobile first
-How to see it: Just open index.html and adjust the screen to see it's responsiveness!
-Who did it: Joshua Hunt
+- What is it: A regular site, with a sporty theme. Done mobile first
+
+- How to see it: Just open index.html and adjust the screen to see it's responsiveness!
+
+- Who did it: Joshua Hunt (me)
 
 -----------------------------------------------------------------------------------
 Notes:
@@ -50,6 +52,10 @@ Notes:
 
 - July 28th - Learning to adjust jQuery settings
 
-- August 1st, going to work on this a bit today
+- August 1st - going to work on this a bit today
 
-- 
+- Aug 1st - Used a CSS/JS slider instead of jQuery
+
+- Aug 1st - Embeded Google Maps in the contact section.
+
+- Aug 1st - Mobile Site looking alright

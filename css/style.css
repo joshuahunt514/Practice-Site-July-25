@@ -39,6 +39,8 @@
     .main-container {
         display: flex;
         flex-wrap: wrap;
+        width: 375px;
+        margin: 0 auto;
     }
     .main-header {
         align-items: center;
@@ -175,8 +177,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-top: 2px solid white;
     }
-
     .slider img {
         width: 100%;
         height: 200px;
@@ -190,40 +192,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-top: 3px solid white;
+        /* ^ Cuts off a little by img ^ */
     }
-    /*
-    .item-a {
-        width: 200px;
+    .box-2 img {
+        border-radius: 50%;
     }
-    .item-b {
-        width: 340px;
-    }
-    .item-c {
-        width: 290px;
-    }
-    .item-d {
-        width: 220px;
-    }
-    .item-e {
-        width: 350px;
-    }
-    @media (max-width: 768px) {
-        .item-a {
-            width: 100px;
-        }
-        .item-b {
-            width: 240px;
-        }
-        .item-c {
-            width: 190px;
-        }
-        .item-d {
-            width: 120px;
-        }
-        .item-e {
-            width: 250px;
-        }
-    }*/
     /* First Article End **********************************************/
     /* Second Article Start **********************************************/
     .box-3 {
@@ -233,11 +207,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-top: 2px solid white;
+    }
+    #gmap_canvas {
+        height: 250px;
+        width: 100%;
+    }
+    .box-3 article {
+        width: 100%;
+        height: 250px;
     }
     /* Second Article End **********************************************/
     /* Footer Start **********************************************/
     .footer-main-container {
         background-color: rgba(0, 0, 240, 0.25);
+        border-top: 5px solid white;
         /* Footer End **********************************************/
     }
     /* Mobile First End ***********************************************/
