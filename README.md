@@ -1,4 +1,3 @@
-!! Currently only the mobile site is looking like anything, so check it out at > 480px.
 
 - What is it: A regular site, with a sporty theme. Done mobile first
 
@@ -63,3 +62,7 @@ Notes:
 - Aug 1st - Mobile Site looking alright
 
 - Aug 2nd - Had some Git issues, making sure they're fixed
+
+- Aug 2nd - Almost done the mobile part [320px - 480px] (I think)
+
+- Aug 2nd - Working on the media queries
