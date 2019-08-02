@@ -1,3 +1,5 @@
+!! Currently only the mobile site is looking like anything, so check it out at > 480px.
+
 - What is it: A regular site, with a sporty theme. Done mobile first
 
 - How to see it: Just open index.html and adjust the screen to see it's responsiveness!
